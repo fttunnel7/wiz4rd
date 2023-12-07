@@ -20,8 +20,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="6617783693"
-KEY="6751589620:AAHwjP6dzZhuqeyUOdYFc6742Q1YUVF1EjM"
+CHATID="-1002030911878"
+KEY="6617696083:AAEbXm7JbDiX3mSzHWeDjHG2_qeC1NqCKxA"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 clear
@@ -327,7 +327,7 @@ restart_system() {
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/LunaticTunnel"},{"text":"ɪɴꜱᴛᴀʟʟ🐬","url":"https://t.me/LNTC_BOT"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/AutoFTbot"},{"text":"ɪɴꜱᴛᴀʟʟ🐬","url":"https://t.me/nusantaraVpn"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
