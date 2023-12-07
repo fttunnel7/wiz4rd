@@ -1,6 +1,6 @@
 # 🇮🇩Auto-FT-Tunnel🇮🇩
 
-# wajib Update Repi Sebelum install script
+# wajib Update Rep0 Sebelum install script
 
 # UP REPO DEBIAN
 <pre><code>apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot</code></pre>
